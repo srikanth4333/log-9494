@@ -1,0 +1,28 @@
+
+<!DOCTYPE html>
+<html>
+<body>
+<form  name="form" action="" method="post" onsubmit="return validate()">
+    First_Name:
+  <input type="text" name="name" id="name" /> <br>
+  <span class="error" id="nameError"></span> <br>
+  <input type="submit"  value="Submit" >
+</form>
+
+</body>
+</html>
+<script>
+   function validate()
+    {
+         var Name=document.getElementById("name").value;
+         if(Name=="")
+         {
+             alert("please entera nane");//error("nameError","please enter a name");
+             return false;
+         }
+    }
+    function error(elementid,message)
+    {
+	    document.getElementById(elementid).innerHTML=message;
+    }
+    </script>
