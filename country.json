@@ -1,0 +1,72 @@
+[
+    {
+     "id":"1",
+     "name":"USA",
+     "parent_id":"0"
+    }, 
+    {
+     "id":"2",
+     "name":"India",
+     "parent_id":"0"
+    }, 
+    {
+     "id":"3",
+     "name":"new york",
+     "parent_id":"USA"
+    }, 
+    {
+     "id":"4",
+     "name":"alabanna",
+     "parent_id":"USA"
+    }, 
+    {
+     "id":"5",
+     "name":"telangana",
+     "parent_id":"India"
+    }, 
+    {
+     "id":"6",
+     "name":"tamilnadu",
+     "parent_id":"India"
+    }, 
+    {
+     "id":"7",
+     "name":"Ontario",
+     "parent_id":"new york"
+    }, 
+    {
+     "id":"8",
+     "name":"British Columbia",
+     "parent_id":"new york"
+    }, 
+    {
+     "id":"9",
+     "name":"New South Wales",
+     "parent_id":"alabanna"
+    }, 
+    {
+     "id":"10",
+     "name":"Queensland",
+     "parent_id":"alabanna"
+    }, 
+    {
+     "id":"11",
+     "name":"hyderabad",
+     "parent_id":"telangana"
+    }, 
+    {
+     "id":"12",
+     "name":"nizamabad",
+     "parent_id":"telangana"
+    }, 
+    {
+     "id":"13",
+     "name":"chemmai",
+     "parent_id":"tamilnadu"
+    }, 
+    {
+     "id":"14",
+     "name":"Birmingham",
+     "parent_id":"tamilnadu"
+    }
+]
